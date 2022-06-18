@@ -1,0 +1,43 @@
+@media screen and (min-width: 1440px) {
+  .container {
+    .card {
+      padding: 3rem;
+      border-radius: 3rem;
+
+      .star {
+        width: 4rem;
+        height: 4rem;
+
+        .img {
+          width: 1.7rem;
+        }
+      }
+
+      .title {
+        margin-top: 3.5rem;
+        font-size: 2.8rem;
+      }
+
+      .text {
+        margin-top: 0.8rem;
+        line-height: 2.5rem;
+        font-size: 1.5rem;
+      }
+
+      .rating-wrapper {
+        .rating-btn {
+          width: 5rem;
+          height: 5.1rem;
+          font-size: 1.5rem;
+
+          div {
+            transform: translateY(0);
+          }
+        }
+      }
+      .submit-btn {
+        margin-top: 3rem;
+      }
+    }
+  }
+}
